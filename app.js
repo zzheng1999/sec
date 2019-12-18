@@ -1,5 +1,5 @@
 //jshint esversion:6
-//
+//dakhkdas
 require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -31,8 +31,6 @@ const userSchema = new mongoose.Schema(
 //userSchema.plugin(encrypt, {secret: process.env.SECRET});
 
 const User = new mongoose.model("User", userSchema);
-
-
 
 
 /**************************************** Home ***********************************************/
